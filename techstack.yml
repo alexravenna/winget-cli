@@ -1,0 +1,509 @@
+repo_name: alexravenna/winget-cli
+report_id: 44bc3070ffe44c3fe850d004ca1b77f0
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T11:02:38+00:00'
+requested_by: ryfu-msft
+provider: github
+branch: master
+detected_tools_count: 40
+tools:
+- name: Assembly Language
+  description: A low-level programming language
+  website_url: https://en.wikipedia.org/wiki/Assembly_language
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4934/default_71f18bbdc61fb88cefb66415bb55dc6f1e60e5ec.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: Pascal
+  description: An imperative and procedural programming language
+  website_url: https://en.wikipedia.org/wiki/Pascal_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/25462/default_b93b3ffaf8650f0584d7b2e14dd145f599722cae.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/WinGetUtilInterop.UnitTests/WinGetUtilInterop.UnitTests.csproj
+  detection_source: src/WinGetUtilInterop.UnitTests/WinGetUtilInterop.UnitTests.csproj
+  last_updated_by: jamespik
+  last_updated_on: 2021-10-25 19:22:53.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: Kaleb Luedtke
+  last_updated_on: 2022-11-11 21:32:28.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: Kaleb Luedtke
+  last_updated_on: 2022-11-11 21:32:28.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/azure-pipelines.yml
+  detection_source: azure-pipelines.yml
+  last_updated_by: Ryan
+  last_updated_on: 2024-02-13 02:34:17.000000000 Z
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/.github/workflows/similarissues.yml
+  detection_source: ".github/workflows/similarissues.yml"
+  last_updated_by: Ruben Guerrero
+  last_updated_on: 2024-01-08 21:21:26.000000000 Z
+- name: Moq
+  description: The most popular and friendly mocking framework for .NET
+  website_url: https://github.com/Moq/moq4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1628/1434934.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/Microsoft.Management.Configuration.UnitTests/Microsoft.Management.Configuration.UnitTests.csproj
+  detection_source: src/Microsoft.Management.Configuration.UnitTests/Microsoft.Management.Configuration.UnitTests.csproj
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2023-02-15 04:37:26.000000000 Z
+- name: NUnit
+  description: An open-source unit testing framework
+  website_url: http://www.nunit.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2371/jZ6MYx5Y_400x400.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: yao-msft
+  last_updated_on: 2020-04-23 20:20:08.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/WinGetUtilInterop.UnitTests/WinGetUtilInterop.UnitTests.csproj
+  detection_source: src/WinGetUtilInterop.UnitTests/WinGetUtilInterop.UnitTests.csproj
+  last_updated_by: jamespik
+  last_updated_on: 2021-10-25 19:22:53.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/Valijson/valijson/.travis.yml
+  detection_source: src/Valijson/valijson/.travis.yml
+  last_updated_by: Yao Sun
+  last_updated_on: 2021-01-12 02:23:52.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLI.sln
+  detection_source: src/AppInstallerCLI.sln
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2022-07-27 00:44:54.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/Microsoft.Management.Configuration.UnitTests/Microsoft.Management.Configuration.UnitTests.csproj
+  detection_source: src/Microsoft.Management.Configuration.UnitTests/Microsoft.Management.Configuration.UnitTests.csproj
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2023-02-15 04:37:26.000000000 Z
+- name: SAS-a
+  description: 'We give people the #powertoknow through data and analytics. Official
+    tweets from our NC HQ. Need help? Visit us at https://t.co/fpSWptrUbp'
+  website_url: https://www.sas.com/en_us/home.html
+  open_source: false
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/8540/f-rHHqG-_normal.jpg
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: ada Lang
+  website_url: http://www.adaic.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7048/no-img-open-source.png
+  detection_source_url: https://github.com/alexravenna/winget-cli
+  detection_source: Repo Metadata
+- name: Microsoft.ApplicationInsights
+  description: Application Insights Base API
+  package_url: https://www.nuget.org/Microsoft.ApplicationInsights
+  version: 2.21.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13015/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/WinGetUtilInterop.UnitTests/WinGetUtilInterop.UnitTests.csproj
+  detection_source: src/WinGetUtilInterop.UnitTests/WinGetUtilInterop.UnitTests.csproj
+  last_updated_by: Ruben Guerrero
+  last_updated_on: 2024-01-10 17:23:10.000000000 Z
+- name: Microsoft.AspNet.WebApi.Client
+  description: This package adds support for formatting and content negotiation to
+    System.Net.Http
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Client
+  version: 5.2.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12870/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/WinGetUtilInterop.UnitTests/WinGetUtilInterop.UnitTests.csproj
+  detection_source: src/WinGetUtilInterop.UnitTests/WinGetUtilInterop.UnitTests.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-07 19:19:39.000000000 Z
+- name: Microsoft.CSharp
+  description: Provides support for compilation and code generation, including dynamic,
+    using the C# language
+  package_url: https://www.nuget.org/Microsoft.CSharp
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12845/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/PowerShell/Microsoft.WinGet.Client.Engine/Microsoft.WinGet.Client.Engine.csproj
+  detection_source: src/PowerShell/Microsoft.WinGet.Client.Engine/Microsoft.WinGet.Client.Engine.csproj
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2023-11-14 22:46:50.000000000 Z
+- name: Microsoft.PowerShell.SDK
+  description: PowerShell runtime for hosting PowerShell Core
+  package_url: https://www.nuget.org/Microsoft.PowerShell.SDK
+  version: 7.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14476/default_6f8377afd6199f3b11a4df20454d48f1cb3b2f70.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2023-11-14 22:46:50.000000000 Z
+- name: Microsoft.Win32.Registry
+  description: Provides support for accessing and modifying the Windows Registry
+  package_url: https://www.nuget.org/Microsoft.Win32.Registry
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13050/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2023-11-14 22:46:50.000000000 Z
+- name: Microsoft.Windows.Compatibility
+  description: This Windows Compatibility Pack provides access to APIs that were previously
+    available only for .NET Framework
+  package_url: https://www.nuget.org/Microsoft.Windows.Compatibility
+  version: 6.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13273/default_c09df070293865f4f6559cd9d8af76724cd749a8.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2023-11-14 22:46:50.000000000 Z
+- name: NUnit3TestAdapter
+  description: A package including the NUnit 3 TestAdapter for Visual Studio 2012
+    onwards
+  package_url: https://www.nuget.org/NUnit3TestAdapter
+  version: 3.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13216/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2023-10-25 00:25:21.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 13.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2023-11-14 22:46:50.000000000 Z
+- name: Octokit
+  description: An async-based GitHub API client library for .NET and .NET Core
+  package_url: https://www.nuget.org/Octokit
+  version: 4.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13595/default_2fed3dd41a57ad03758b88d7d49dbbc498986493.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/PowerShell/Microsoft.WinGet.Client.Engine/Microsoft.WinGet.Client.Engine.csproj
+  detection_source: src/PowerShell/Microsoft.WinGet.Client.Engine/Microsoft.WinGet.Client.Engine.csproj
+  last_updated_by: Ruben Guerrero
+  last_updated_on: 2023-04-20 16:57:42.000000000 Z
+- name: StyleCop.Analyzers
+  description: An implementation of StyleCop's rules using Roslyn analyzers and code
+    fixes
+  package_url: https://www.nuget.org/StyleCop.Analyzers
+  version: 1.1.118
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12996/default_971bb108ce002c2032e407a9046135e1542c46c7.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: Ruben Guerrero
+  last_updated_on: 2022-12-07 21:15:00.000000000 Z
+- name: System.Net.Http
+  description: Provides a programming interface for modern HTTP applications
+  package_url: https://www.nuget.org/System.Net.Http
+  version: 4.3.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12860/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/PowerShell/Microsoft.WinGet.Client.Engine/Microsoft.WinGet.Client.Engine.csproj
+  detection_source: src/PowerShell/Microsoft.WinGet.Client.Engine/Microsoft.WinGet.Client.Engine.csproj
+  last_updated_by: Ruben Guerrero
+  last_updated_on: 2023-12-05 17:59:33.000000000 Z
+- name: System.Security.Cryptography.Xml
+  description: Provides classes to support the creation and validation of XML digital
+    signatures
+  package_url: https://www.nuget.org/System.Security.Cryptography.Xml
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13303/default_4d1c8e39751da3e5e8bf7305f3f45ac90df4be6f.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  detection_source: src/AppInstallerCLIE2ETests/AppInstallerCLIE2ETests.csproj
+  last_updated_by: yao-msft
+  last_updated_on: 2023-08-04 18:06:06.000000000 Z
+- name: System.Security.Principal.Windows
+  description: Provides classes for retrieving the current Windows user and for interacting
+    with Windows users and groups
+  package_url: https://www.nuget.org/System.Security.Principal.Windows
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13048/default_1b8be57b16f1f491c0e5f67e5d1021f4df68ea30.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/PowerShell/Microsoft.WinGet.Client.Engine/Microsoft.WinGet.Client.Engine.csproj
+  detection_source: src/PowerShell/Microsoft.WinGet.Client.Engine/Microsoft.WinGet.Client.Engine.csproj
+  last_updated_by: Ruben Guerrero
+  last_updated_on: 2023-12-05 17:59:33.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/alexravenna/winget-cli/blob/master/src/Microsoft.Management.Configuration.UnitTests/Microsoft.Management.Configuration.UnitTests.csproj
+  detection_source: src/Microsoft.Management.Configuration.UnitTests/Microsoft.Management.Configuration.UnitTests.csproj
+  last_updated_by: JohnMcPMS
+  last_updated_on: 2023-02-15 04:37:26.000000000 Z
